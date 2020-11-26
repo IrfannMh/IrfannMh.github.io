@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Profile</title>
+    </head>
+
+    <body>
+        <a id="home" href="Home.html" style="text-decoration:none; color: white;" >Home</a>
+        <a id="logout" href="Login.html" style="text-decoration:none;">Log Out</a>
+        <div id="kotak">
+            <img id="foto" src="./Aset/irpan.png">
+            <p id="nama">Muhammad Irfan </p>
+            <form id="forms">
+                <label>Email:</label><br>
+                <input class="frms" type="text" name="email" size="24" value="mhd.irfann00@gmail.com" />
+                <hr>
+                <label>Status:</label><br>
+                <input class="frms" type="text" name="Status" size="24" value="Mahasiswa" />
+                <hr>
+                <label>Phone:</label><br>
+                <input class="frms" type="number" name="Phone" size="15" value="0812345678" />
+                <hr>
+                <label>Address:</label><br>
+                <input class="frms" type="text" name="address" size="24" value="Jl Madu Mangga " />
+                <hr>
+                <label>Password:</label><br>
+                <input class="frms" type="password" name="password" size="24" value="1234567890" />
+                <hr>
+            </form>
+            <a id="Edit" href="">Edit</a>
+            <a id="Save" href="">Save</a>
+        </div>
+        <div id="kotak2">
+            <p id="title">Histori Jurnal</p>
+            <Pre id="daftar">
+  Pengembangan Bahan Ajar Pengantar Teknologi Informasi Berbasis Contextual 
+  Teaching and Learning di Jurusan Teknik Elektro Universitas Negeri Malang
+
+  Rancang Bangun Game 2d Shooter Pltformer Menggunakan Metode Finite State 
+  Machine
+
+  Sistem Pendukung Keputusan Penentuan Dosen Pembimbing Skripsi Menggunakan
+  Metode Profile Matching (Studi Kasus: STMIK Pelita Nusantara Medan)
+
+  Pengembangan Sistem Informasi Presensi Kuliah Berbasis NFC di Program Studi 
+  Pendidikan Teknik Informatika dan Komputer Universitas Sebelas Maret
+
+  Rancang Bangun Sistem Parkir Otomatis Pada Kampus Ii Itn Malang Menggunakan 
+  Minimum Sistem Arduino Dengan Website 
+
+  Perancangan Aplikasi Human Resource Information System (HRIS) Berbasis Webs
+  ite Pada PT. Super Tata Raya Steel
+
+  Video Company Profile LIVE Kota Tangerang Dengan Teknik Editing Menggunakan 
+  Adobe Premier Pro
+
+  Sistem Monitoring Keadaan Ruang Laboratorium Fakultas Komunikasi Dan Infor
+  matika Di Universitas Muhammadiyah Surakarta
+            </Pre>
+        </div>
+        
+
+        <div id="contact">
+            <p >Contact Us:</p>
+            <p>&nbsp;</p>
+            <img id="ig" src="./Aset/Icon awesome-instagram.png" />
+            <img id="twit" src="./Aset/Icon awesome-twitter.png" />
+            <img id="fb" src="./Aset/Icon awesome-facebook-f.png" />
+            <img id="yt" src="./Aset/Icon awesome-youtube.png" />
+        </div>
+
+
+        <style>
+            @font-face {
+                font-family: 'Breath';
+                src: url('./Aset/Breathing.ttf') format('truetype');    
+            }
+            body {
+                background-image: url("./Aset/bg.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            }
+            
+            h1 {
+                line-height: 20px;
+                font-family: 'Breath';
+                color: white;
+            }
+            #contact{
+                position: absolute;
+                top: 80%;
+                left: 5%;
+                font-size: 14pt;
+                padding:10px;
+                z-index: 3;
+            }
+
+            #ig{
+                position: absolute;
+                width: 35px;
+                margin-top: -30px;
+            }
+
+            #twit{
+                position: absolute;
+                width: 35px;
+                margin-top: -29px;
+                left: 60px;
+            }
+
+            #fb{
+                position: absolute;
+                width: 19px;
+                margin-top: -30px;
+                left: 120px;
+            }
+
+            #yt{
+                position: absolute;
+                width: 35px;
+                margin-top: -28px;
+                left: 163px;
+            }
+            p {
+                font-family: 'Times New Roman';
+                font-size: 15px;
+            }
+            #foto{
+                position: absolute;
+                width: 100px;
+                height: 100px;
+                left: 5%;
+            }
+            #nama{
+                font-family: 'Breath';
+                top: 20%;
+                left: 2%;
+                font-size: 20px;
+                position: absolute;
+            }
+            #forms{
+                position: absolute;
+                top: 5%;
+                left: 40%;
+                font-size: 20px;
+                font-family: 'Times New Roman';
+            }
+            #kotak {
+                position: absolute;
+                left: 5%;
+                top: 10%;
+                background-color:white;
+                width: 600px;
+                height: 450px;
+                z-index: 2;
+            }
+            #kotak2{
+                position: absolute;
+                left: 50%;
+                top: 10%;
+                background-color:white;
+                width: 600px;
+                height: 450px;
+                z-index: 2;    
+            }
+            #title{
+                position: absolute;
+                font-family: 'Times New Roman';
+                font-size: 25px;
+                left: 5%;
+            }
+            #daftar{
+                top: 12%;
+                position: absolute;
+                left: 5%;
+            }
+            .menu{
+                position: absolute;
+                font-size: 25px;
+                top: 5%;
+                left: 45%;
+                z-index: 1;
+            }
+            #Edit{
+                position: absolute;
+                top: 85%;
+                left: 40%;
+                font-size: 20px;
+            }
+            #Save{
+                position: absolute;
+                top: 85%;
+                left: 68%;
+                font-size: 20px;
+            }
+            
+            #home{
+                position: absolute;
+                font-family:'Times New Roman';
+                font-size: 20px;
+                left: 5%;
+                padding: 5px;
+                z-index:1;
+            }
+            #logout{
+                position: absolute;
+                font-family:'Times New Roman';
+                font-size: 20px;
+                padding: 5px;
+                left: 88%;
+                z-index:1;
+                color: white;
+            }
+            
+        </style>
+    </body>
+</html>

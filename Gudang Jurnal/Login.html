@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+    <h1 class="logo">Gudang Jurnal</h1>
+    
+    <div id="kotak">
+        <h1 class="menu">Login</h1>
+    </div>
+    <div id="daftar">
+        <p style="color: white;">Email :</p>
+        <input type="text" id="Email" value=""/>
+        <p style="color: white;">Password :</p>
+        <input type="password" id="password" value=""/>
+        <a href="Recovery Password.html">
+            <p style="color: red;">Forgot password?</p>
+        </a>
+        <a href="Sign up.html">
+            <p style="color: red;">Didn't have an account?</p>
+        </a>
+        <button onclick="" id="tombol"><a href="Home.html">Login</a></button>
+    </div>
+    
+    <div id="contact">
+        <p>Contact Us:</p>
+        <p>&nbsp;</p>
+        <img id="ig" src="./Aset/Icon awesome-instagram.png" />
+        <img id="twit" src="./Aset/Icon awesome-twitter.png" />
+        <img id="fb" src="./Aset/Icon awesome-facebook-f.png" />
+        <img id="yt" src="./Aset/Icon awesome-youtube.png" />
+    </div>
+    <style>
+        @font-face {
+            font-family: 'Breath';
+            src: url('./Aset/Breathing.ttf') format('truetype');    
+        }
+        body {
+            background-image: url("./Aset/bg.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+        
+        h1 {
+            line-height: 20px;
+            font-family: 'Breath';
+            color: white;
+        }
+        #contact{
+            position: absolute;
+            top: 80%;
+            left: 5%;
+            font-size: 14pt;
+            padding:10px;
+            z-index: 3;
+        }
+
+        #ig{
+            position: absolute;
+            width: 35px;
+            margin-top: -30px;
+        }
+
+        #twit{
+            position: absolute;
+            width: 35px;
+            margin-top: -29px;
+            left: 60px;
+        }
+
+        #fb{
+            position: absolute;
+            width: 19px;
+            margin-top: -30px;
+            left: 120px;
+        }
+
+        #yt{
+            position: absolute;
+            width: 35px;
+            margin-top: -28px;
+            left: 163px;
+        }
+        p {
+            font-family: 'Times New Roman';
+            font-size: 15px;
+        }
+        #kotak {
+            position: absolute;
+            left: 30%;
+            top: 25%;
+            background-color: rgba(0, 0, 0, 0.6);
+            width: 500px;
+            height: 350px;
+            z-index: 2;
+        }
+        .menu{
+            position: absolute;
+            font-size: 25px;
+            top: 5%;
+            left: 45%;
+            z-index: 1;
+        }
+        .logo{
+            position: absolute;
+            left: 29%;
+            top: 5%;
+            font-size: 50pt;
+        }
+        #daftar{
+            position: absolute;
+            top: 34%;
+            left: 35%;
+            z-index: 3;
+        }
+        #tombol{
+            position: absolute;
+            left: 0%;
+            font-size: 15px;
+            font-family: 'Times New Roman';
+            width: 380px;
+            height: 30px;
+        }
+    </style>
+</body>
+</html>
